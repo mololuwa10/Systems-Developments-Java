@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>SMMCompetitor</OriginalElement>
+  <nodes>
+    <node x="469.5" y="0.0">SMMCompetitor.Manager</node>
+    <node x="-503.31264916467785" y="285.0">SMMCompetitor.Competitor</node>
+    <node x="116.33333333333334" y="0.0">SMMCompetitor.Name</node>
+    <node x="-4.146168125165715" y="680.8496420047733">SMMCompetitor.CompetitorList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SMMCompetitor.CompetitorList" target="SMMCompetitor.Competitor" relationship="CREATE">
+      <point x="52.75" y="-194.0" />
+      <point x="154.10383187483427" y="615.0" />
+      <point x="238.4111111111111" y="615.0" />
+      <point x="238.4111111111111" y="605.0" />
+      <point x="-230.31264916467785" y="605.0" />
+      <point x="91.0" y="149.5" />
+    </edge>
+    <edge source="SMMCompetitor.CompetitorList" target="SMMCompetitor.Competitor" relationship="TO_MANY">
+      <point x="-52.75" y="-194.0" />
+      <point x="48.603831874834285" y="615.0" />
+      <point x="-412.31264916467785" y="615.0" />
+      <point x="-91.0" y="149.5" />
+    </edge>
+    <edge source="SMMCompetitor.Competitor" target="SMMCompetitor.Name" relationship="TO_ONE">
+      <point x="91.0" y="-149.5" />
+      <point x="-230.31264916467785" y="259.0" />
+      <point x="214.83333333333337" y="259.0" />
+      <point x="1.4210854715202004E-14" y="116.5" />
+    </edge>
+    <edge source="SMMCompetitor.Competitor" target="SMMCompetitor.Name" relationship="DEPENDENCY">
+      <point x="-91.0" y="-149.5" />
+      <point x="-412.31264916467785" y="259.0" />
+      <point x="149.16666666666669" y="259.0" />
+      <point x="-65.66666666666667" y="116.5" />
+    </edge>
+    <edge source="SMMCompetitor.CompetitorList" target="SMMCompetitor.Name" relationship="CREATE">
+      <point x="52.75" y="-194.0" />
+      <point x="154.10383187483427" y="615.0" />
+      <point x="238.4111111111111" y="615.0" />
+      <point x="238.4111111111111" y="605.0" />
+      <point x="374.5" y="605.0" />
+      <point x="374.5" y="259.0" />
+      <point x="280.5" y="259.0" />
+      <point x="65.66666666666669" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4013409961685824" showDependencies="true" x="310.0" y="512.0" />
+  <SelectedNodes>
+    <node>SMMCompetitor.CompetitorList</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
